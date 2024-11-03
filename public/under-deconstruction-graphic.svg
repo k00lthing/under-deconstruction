@@ -1,0 +1,18 @@
+<svg width="622" height="438" viewBox="0 0 622 438" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" y="3" width="615.6" height="432" rx="22" stroke="#F0532D" stroke-width="6"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M49.2325 46.3C32.1117 46.3 18.2325 60.1792 18.2325 77.3V88H18V396C18 408.703 28.2975 419 41 419H580C592.703 419 603 408.703 603 396V108C603 95.2975 592.703 85 580 85H212.906V77.3C212.906 60.1792 199.027 46.3 181.906 46.3H49.2325ZM206.906 91V90.4V77.3C206.906 63.4929 195.713 52.3 181.906 52.3H49.2325C35.4254 52.3 24.2325 63.4929 24.2325 77.3V105.7H24V396C24 405.389 31.6112 413 41 413H580C589.389 413 597 405.389 597 396V108C597 98.6112 589.389 91 580 91H208.065H206.906Z" fill="#F0532D"/>
+<circle cx="531.6" cy="28.5" r="7.5" stroke="#F0532D" stroke-width="5"/>
+<circle cx="558.6" cy="28.5" r="7.5" stroke="#F0532D" stroke-width="5"/>
+<circle cx="585.6" cy="28.5" r="7.5" stroke="#F0532D" stroke-width="5"/>
+<rect x="448.9" y="38.5" width="32.8" height="32.8" rx="5.5" stroke="#F0532D" stroke-width="5"/>
+<circle cx="465.3" cy="54.9" r="7" fill="#F0532D" stroke="#F0532D"/>
+<line x1="578.983" y1="231.133" x2="396.983" y2="389.133" stroke="#F0532D" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 10"/>
+<line x1="396.997" y1="228.88" x2="578.997" y2="390.88" stroke="#F0532D" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 10"/>
+<rect x="36" y="110" width="547" height="285" stroke="#F0532D" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 10"/>
+<path d="M39.5 263.5H210.5" stroke="#F0532D" stroke-width="3" stroke-dasharray="10 10"/>
+<path d="M220 182H391" stroke="#F0532D" stroke-width="3" stroke-dasharray="10 10"/>
+<path d="M396 223L579 223" stroke="#F0532D" stroke-width="3" stroke-dasharray="10 10"/>
+<path d="M218 396L218 111" stroke="#F0532D" stroke-width="3" stroke-dasharray="10 10"/>
+<path d="M391 396L391 111" stroke="#F0532D" stroke-width="3" stroke-dasharray="10 10"/>
+<path d="M125 259L126 114" stroke="#F0532D" stroke-width="3" stroke-dasharray="10 10"/>
+</svg>
