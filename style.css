@@ -2,10 +2,15 @@
   font-family: Suisse Intl, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --headline-xl: clamp(2.5rem, -0.875rem + 8.333vw, 3.5rem);
+  --headline-subline: clamp(1.2rem, -0.875rem + 8.333vw, 1.5rem);
+  --headline-l: clamp(1.5rem, -0.875rem + 8.333vw, 2rem);
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #EB5027;
+  --red: #EB5027;
+  --white: whitesmoke;
+  color: var(--white);
+  background-color: var(--red);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,12 +19,15 @@
 }
 
 a {
-  color: #ffffff;
+  color: var(--white);
+  text-underline-offset: .25rem;
   font-weight: 500;
-  text-decoration: inherit;
+  text-decoration: underline dashed var(--white);
 }
 a:hover {
-  color: #ffffff;
+  color: var(--white);
+  text-decoration-thickness: 5px;
+  text-decoration: underline solid var(--white);
 }
 
 main svg {
@@ -40,7 +48,6 @@ body main{
 body nav ul{
   list-style: none;
   padding: 0;
-
 }
 
 section#extensions{
@@ -56,7 +63,7 @@ section#extensions{
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: var(--headline-xl);
   font-weight: 900;
   line-height: 1.1;
   margin-block-end: 1rem;
@@ -64,10 +71,10 @@ h1 {
 h1 .outline{
   color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-color: var(--white);
 }
 h1 .subline{
-  font-size: 1.5rem;
+  font-size: var(--headline-subline);
   font-weight: 600;
 }
 
@@ -75,12 +82,16 @@ h3 {
   margin-block-end: 0;
 }
 
+p.description {
+  margin-block-start: .5rem;
+}
+
 svg * {
-  stroke: #ffffff;
+  stroke: var(--white);
 }
 
 svg .fill {
-  fill: #ffffff;
+  fill: var(--white);
 }
 
 img {
@@ -94,26 +105,39 @@ img {
     background-color: #ffffff;
   }
   a {
-    color: #EB5027;
+    color: var(--red);
+    text-decoration: underline dashed var(--red);
   }
   a:hover {
-    color: #EB5027;
+    color: var(--red);
+    text-decoration-thickness: 5px;
+    text-decoration: underline solid var(--red);
   }
 
   h1 .outline{
-    -webkit-text-stroke-color: #EB5027;
+    -webkit-text-stroke-color: var(--red);
   }
 
   svg * {
-    stroke: #EB5027;
+    stroke: var(--red);
   }
   
   svg .fill {
-    fill: #EB5027;
+    fill: var(--red);
+  }
+}
+@media screen and (max-width: 450px) {
+  main svg {
+    margin-inline-start: -360px;
   }
 }
 
 @media screen and (max-width: 600px) {
+
+  main svg {
+    margin-inline-start: -350px;
+  }
+
   body main{
     flex-direction: column-reverse;
     place-items: start;
